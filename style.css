@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 1rem;
+    position: absolute;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.name {
+    width: 80%;
+    margin-bottom: 7px;
+}
+
+.question_1 {
+    width: 80%;
+    margin-bottom: 7px;
+}
+
+.question_2 {
+    width: 80%;
+    margin-bottom: 7px;
+}
+
+.envoyer {
+    width: 91.5%;
+    position: absolute;
+    bottom: 1rem;
+    padding: 8px;
+}
